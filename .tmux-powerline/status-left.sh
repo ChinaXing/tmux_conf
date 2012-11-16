@@ -25,7 +25,7 @@ register_segment "tmux_session_info"
 declare -A hostname
 hostname+=(["script"]="${segments_path}/hostname.sh")
 hostname+=(["foreground"]="colour0")
-hostname+=(["background"]="colour33")
+hostname+=(["background"]="colour255")
 hostname+=(["separator"]="${separator_right_bold}")
 register_segment "hostname"
 

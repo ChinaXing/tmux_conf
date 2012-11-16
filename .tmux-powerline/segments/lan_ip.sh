@@ -28,7 +28,7 @@ else
 fi
 
 if [ -n "$lan_ip" ]; then
-	echo "ⓛ ${lan_ip}"
+	echo "${lan_ip}"
 	exit 0
 else
 	exit 1
